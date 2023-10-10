@@ -265,6 +265,13 @@ hr {
     padding: 10px 0px;
 }
 
+.social-media-icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
 /* 
 @media(min-width: 680px) {
     .Airbnb-logo {
