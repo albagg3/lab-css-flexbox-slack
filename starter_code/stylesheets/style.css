@@ -8,3 +8,286 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body{
+    width: 100vw;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #540B51;
+    padding: 20px;
+}
+
+.logo-img{
+    width: 100px;
+}
+
+.buttons-top {
+background-color: #540B51;
+border: none;
+}
+
+/* header */ 
+
+.first-section{
+    background-color: #540B51;
+    text-align: center;
+}
+
+h1{
+    margin:0;
+    padding: 30px;
+    color: white;
+}
+
+.para-white {
+    color: white;
+}
+
+.para-yellow{
+    color:#ECB12F;
+}
+
+/* header - Buttons */
+
+.container-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-email{
+    background-color:white;
+    color:#540B51;
+    height: 50px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-google{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #4285F4;
+    color:white;
+    height: 50px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.logo-google{
+    background-color: white;
+    height: 40px;
+}
+
+.signUpGoogle {
+    text-align: center;
+}
+
+.img-cortada{
+    width: 100%; /* cortar foto*/
+}
+
+/* section 2 */
+
+.color-beige {
+    background-color:#F3EAE2;
+}
+
+.textTrusted {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    font-size: smaller;
+}
+
+.company-logos {
+    padding-bottom: 20px;
+}
+
+.first-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Airbnb-logo {
+    width: 20%;
+}
+
+.Nasa-logo {
+    width: 20%;
+}
+
+.Uber-logo {
+    width: 20%;
+}
+
+.Target-logo {
+    width: 20%;
+}
+
+.NYT-logo {
+    width: 50%;
+}
+
+.Spotify-logo {
+    width: 40%;
+}
+
+.img-general {
+    width: 95%;
+}
+
+.align-right {
+    margin-left: 5%;
+}
+
+.paras {
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: smaller;
+    color: #2E71A6;
+}
+
+/* section 3*/
+
+.section3 {
+    text-align: center;
+}
+
+.teams-large {
+    font-size: x-large;
+    padding: 0px 40px;
+}
+
+.teams-large-sub {
+    font-size: smaller;
+    padding: 0px 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.num {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #540B51;
+}
+
+.text {
+    font-weight: bold;
+    font-size: smaller;
+    padding: 0px 80px;
+}
+
+.footnote {
+    font-weight: lighter;
+    font-size: x-small;
+    padding: 0% 5%;
+    text-align: center;
+}
+
+.purple-button {
+    background-color:#540B51;
+    color: white;
+    text-transform: uppercase;
+    height: 50px;
+    width: 90%;
+    border: solid white;
+    border-radius: 5px;
+}
+
+.white-button{
+    background-color: white;
+    color:#540B51;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    width: 90%;
+    border: solid #540B51;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.fondo-morado {
+    background-color: #540B51;
+    padding-bottom: 20px;
+}
+
+.welcome-white {
+    color: white;
+    padding: 20px;
+}
+
+.logo-img-small {
+   width: 10%; 
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.four-lists {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-small;
+    width: 95%;
+    padding-top: 10px;
+}
+
+.titles {
+    font-size: larger;
+    font-weight: bold;
+}
+
+hr {
+    width: 90%;
+}
+
+.misma-class {
+    font-size: x-small;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+/* 
+@media(min-width: 680px) {
+    .Airbnb-logo {
+        width: 160px;
+    }
+    
+    .Nasa-logo {
+        width: 160px;
+    }
+    
+    .Uber-logo {
+        width: 160px;
+    }
+    
+    .Target-logo {
+        width: 150px;
+    }
+    
+    .NYT-logo {
+        width: 270px;
+    }
+    
+    .Spotify-logo {
+        width: 200px;
+    }
+} */
